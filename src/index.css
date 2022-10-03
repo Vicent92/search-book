@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 62.3%;
+  box-sizing: border-box;
+
+  color-scheme: light dark;
+  color: #001858;
+  background-color: #fef6e4;  
+}

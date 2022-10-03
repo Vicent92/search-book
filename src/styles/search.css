@@ -1,0 +1,34 @@
+.container-search {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.container-search .container-items-books {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  /* background-color: red; */
+}
+
+.items-books {
+  width: 90%;
+  height: auto;
+  background-color: #f3d2c1;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.items-books img {
+  width: 100%;
+  height: 100%;
+}
